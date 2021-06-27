@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Digital Clock</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Digital Clock">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href="./assets/style.css">   
+</head>
+<body>    
+    
+<main id="mainContent" tabindex="0">
+
+
+    <figure  align="center"> 
+		<p class="Clock" align="center">
+            <script type="text/javascript" src="./assets/myDigital.js"> </script>
+				<img id="satu" src=""/><span> </span><img id="dua" src=""/><span> </span><img id="colon" src="./images/colon.gif"/>
+				<img id="tiga" src=""/><span> </span><img id="empat" src=""/><span> </span><img id="colon" src="./images/colon.gif"/>
+				<img id="lima" src=""/><span> </span><img id="enam" src=""/>
+		</p>
+    </figure>
+
+<div align="center">
+<script type="text/javascript" src="./assets/waktu.js"> </script> 
+	&nbsp;&nbsp;&nbsp;
+	<span id="jam"></span><span id="colon">:</span><span id="menit"></span><span id="colon">:</span><span id="detik"></span>
+<script type="text/javascript" src="./assets/digital.js"></script>
+</div>
+
+</main>
+<footer>
+    <center>
+        <div class="footer" tabindex="0" width="100%" align="center"> 
+               
+            <p align="center" width="100%">Copyright&copy;<span class="myYear">2021</span> - Digital Clock</p>
+            <script type="text/javascript">const data=document.querySelector(".myYear"); data.innerHTML=new Date().getFullYear(); </script>
+           
+        </div>
+    </center>
+    
+</footer>
+</body>
+</html>
